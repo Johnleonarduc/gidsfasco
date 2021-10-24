@@ -25,6 +25,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
@@ -32,7 +33,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent }
     ], { relativeLinkResolution: 'legacy'}),
-    FontAwesomeModule,
+  
   ],
 
   providers: [],
