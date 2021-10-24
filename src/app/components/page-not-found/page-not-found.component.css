@@ -1,0 +1,15 @@
+section{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 5em;
+}
+
+img{
+    width: 30vw;
+}
+
+h2{
+    text-align: center;
+    color: red;
+}

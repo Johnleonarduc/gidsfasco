@@ -1,0 +1,61 @@
+<main>
+    <section id="slider"> 
+        <img  class="svg" *ngIf = "!currentSlideData.slideImgUrl"  src="../../../assets/svg-loaders/three-dots.svg" alt="">
+        <div class="slider-wrapper"  *ngIf = "currentSlideData.slideImgUrl" >
+            <img [src]="currentSlideData.slideImgUrl" alt="">
+            <div id="hero-text">
+                <p>{{currentSlideData.slideText}}</p>
+                <div id="circ-div">
+                    <span class="circ" [ngClass]="currentSlideData.counter === 0? 'paint' : 'noPaint'"></span>
+                    <span class="circ" [ngClass]="currentSlideData.counter === 1? 'paint' : 'noPaint'"></span>
+                    <span class="circ" [ngClass]="currentSlideData.counter === 2? 'paint' : 'noPaint'"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="get-to-know-us">
+        <h2>GET TO KNOW US</h2>
+        <p>{{aboutUs}}</p>
+        <a href="./assets/home/gidsfasco_company_profile.pdf" download>
+            <button class="btn-blacBg">
+                Download Company Profile 
+                <fa-icon [icon]="faFileDownload"></fa-icon>
+            </button>
+        </a>
+    </section>
+
+    <section id="services">
+        <h1>OUR SERVICES</h1>
+        <div *ngFor = "let service of services; odd as odd" class="service-container"  [ngStyle]="{'background-color': odd? 'gold': 'white'}">
+            <div class="services-img-card" [ngStyle]="{'background': 'url(' +service.img+ ')', 'background-size': 'cover' }" >
+                <div class="services-cap">
+                    <h3>{{service.caption}}</h3>
+                </div>
+            </div>
+            <p class="services-desc">{{service.description}}</p>
+        </div>
+    </section>
+    <section id="values">
+        <h2>OUR VALUES</h2>
+        <div class="box-vals">
+            <p>Safety</p>
+            <p>Integrity</p>
+            <p>Quality Service Delivery</p>
+            <p>Customer Satisfaction</p>
+            <p>Team Work</p>
+        </div>
+    </section>
+
+    <section id="clients">
+        <h2>CLIENTS AND PROSPECTS</h2>
+        <div class="clients_prospects">
+            <div *ngFor = "let client of clients" class="client_prospect">
+                <img [src]="client" alt="">
+            </div>
+        </div>
+    </section>
+
+
+</main>

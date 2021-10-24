@@ -1,0 +1,75 @@
+footer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#foot-addr{
+    background-color: gold;
+    padding: 2em;
+}
+
+address{
+    font-style: normal;
+    text-align: center;
+}
+
+address a{
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
+    text-align: left;
+}
+
+address ul li{
+    text-align: left;
+    margin-left: 2em;
+    line-height: 2em;
+}
+
+address ul{
+    display: grid;
+    justify-items: left;
+    font-weight: bold;
+}
+
+#connect{
+    background-color: transparent;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+#connect nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: transparent;
+    gap: 0.5em
+
+}
+
+#connect nav a{
+    color: black;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 0.3em;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#connect h3{
+    font-weight: normal;
+}
+
+p{
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    margin: 2em 0;
+}
