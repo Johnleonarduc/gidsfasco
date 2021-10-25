@@ -56,29 +56,21 @@ export class HomeComponent implements OnInit {
     {
       caption: "Oil Marketing",
       img:"../../../assets/home/Oil-spill-clean-up.jpg",
-      description: `Lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit, sed diam nonummy nibh euismod tincidunt
-      ut laoreet dolore magna aliquam erat volutpat.
-      Ut wisi enim ad minim veniam, quis nostrud
-      exerci tation ullamcorper sus`
+      description: `Our network of supply and demand chain is almost endless, 
+                    covering the whole of West Africa and parts of Northern Africa, 
+                    efficient and timely service delivery, is our trade mark.`
     },
     {
-      caption: "Marine Service Provider",
+      caption: "Marine Services",
       img:"../../../assets/home/threeEngineers.jpg",
-      description: `Lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit, sed diam nonummy nibh euismod tincidunt
-      ut laoreet dolore magna aliquam erat volutpat.
-      Ut wisi enim ad minim veniam, quis nostrud
-      exerci tation ullamcorper sus`
+      description: `We service oil fields, provides oil service and Tanker Vessels Chandling services etc.`
     },
     {
       caption: "General Merchandize",
       img:"../../../assets/home/Oil-spill-clean-up.jpg",
-      description: `Lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit, sed diam nonummy nibh euismod tincidunt
-      ut laoreet dolore magna aliquam erat volutpat.
-      Ut wisi enim ad minim veniam, quis nostrud
-      exerci tation ullamcorper sus`
+      description: `We market finished products, such as, AGO, PMS, DPK, etc and we mine and 
+                    sell solid minerals such as: 
+                    Gold, Diamonds, Leads etc and general contracts and supplies.`
     },
 
   ]

@@ -127,6 +127,7 @@ span.circ{
 
 .services-desc{
     text-align: justify;
+    line-height: 1.5em;
 }
 
 #values{
@@ -212,12 +213,13 @@ fa-icon{
     }
 
     .box-vals{
-        width: 80%;
+        width: 90%;
         grid-template-columns: repeat(3, 1fr);
     }
     
     .box-vals p{
         display: inline-block;
+        text-align: center;
     }
 
     .clients_prospects{
