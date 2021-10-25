@@ -97,6 +97,7 @@ span.circ{
 }
 
 .service-container{
+    width: 90%;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -204,6 +205,7 @@ fa-icon{
 
     .service-container{
         grid-template-columns: 1fr 3fr;
+        justify-items: left;
         gap: 2em;
     }
     
