@@ -62,3 +62,28 @@ fa-icon{
 .hide{
     display: none;
 }
+
+@media  screen and (min-width: 500px) {
+
+    section#header{
+        height: 70px;
+    }
+
+    #header img{
+        width: 3em;
+    }
+
+    #title{
+        font-size: 1em;
+        padding-left: 1em;
+    }
+}
+
+@media screen and (min-width: 700px){
+    section#header{
+        grid-template: 
+        "logo   title   hambugger"
+        /.7fr    3fr     1fr
+        ;
+    }
+}

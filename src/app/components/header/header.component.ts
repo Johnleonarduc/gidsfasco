@@ -8,7 +8,6 @@ import { faBars, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent implements OnInit {
   faBars = faBars;
-  title:string = "GIDSFASCO INTEGRATED SERVICES LTD"
 
   faPhone = faPhone;
   faEnvelope = faEnvelope;
