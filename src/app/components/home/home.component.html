@@ -27,7 +27,7 @@
     </section>
 
     <section id="services">
-        <h1>OUR SERVICES</h1>
+        <h1>OUR LINE OF BUSINESS</h1>
         <div *ngFor = "let service of services; odd as odd" class="service-container"  [ngStyle]="{'background-color': odd? 'gold': 'white'}">
             <div class="services-img-card" [ngStyle]="{'background': 'url(' +service.img+ ')', 'background-size': 'cover' }" >
                 <div class="services-cap">
