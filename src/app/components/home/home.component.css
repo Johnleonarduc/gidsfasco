@@ -145,6 +145,7 @@ span.circ{
     font-weight: bold;
     padding: 1em;
 }
+
 .box-vals p{
     margin: 0;
     line-height: 2em;
@@ -169,8 +170,6 @@ span.circ{
 .client_prospect img{
     width: 70px;
 }
-
-
 
 fa-icon{
     border-left: 1px solid white;
@@ -197,4 +196,32 @@ fa-icon{
     #hero-text p{
         font-size: 1.5em;
     }
+
+    a[download]{
+        justify-self: left !important;
+    }
+
+    .service-container{
+        grid-template-columns: 1fr 3fr;
+        gap: 2em;
+    }
+    
+    .services-img-card {
+        width: 15em;
+        height: 10em;
+    }
+
+    .box-vals{
+        width: 80%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .box-vals p{
+        display: inline-block;
+    }
+
+    .clients_prospects{
+        grid-template-columns: repeat(7, 1fr);
+    }
+
 }
